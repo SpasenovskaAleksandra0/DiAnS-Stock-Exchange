@@ -1,14 +1,12 @@
-# Use an official Python image
 FROM python:3.13
 
-# Set the working directory
 WORKDIR app
 
-# Copy project files
+COPY requirements.txt .
 COPY . .
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
-# Run the application
-CMD ["python", "novo.py"]
+EXPOSE 5000
+
+#CMD ["python", "flask_app/app.py"]
