@@ -1,3 +1,4 @@
+plotly
 psycopg2-binary
 pandas
 yfinance
