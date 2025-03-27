@@ -3,10 +3,11 @@ import os
 import psycopg2
 
 # Database connection parameters
-DB_HOST = "localhost"
-DB_NAME = "stocks_data"
+DB_HOST = "db"
+DB_NAME = "pgstockdatabase"
+DB_PORT = "5432"
 DB_USER = "postgres"
-DB_PASSWORD = "Borealis"
+DB_PASSWORD = "db_user_pass"
 
 # Directory containing CSV files
 CSV_DIR = "Stocks"
