@@ -36,7 +36,7 @@ or
 http://127.0.0.1:5000
 ```
 
-# 🌌 Team
+# 🌟 Team
 - Aleksandra Spasenovska (221502)
 - Mario Galimanoski (221080)
 - Filip Rogov (221567)
