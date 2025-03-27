@@ -1,0 +1,193 @@
+/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #5cb85c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 20px;
+}
+
+#filter-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#filter-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#filter-section form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#filter-section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#filter-section input[type="date"], #filter-section select {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+  width: 100%; /* Take full width of the container */
+}
+
+#filter-section button[type="submit"] {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+#filter-section button[type="submit"]:hover {
+  background-color: #4cae4c;
+}
+
+#chart-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+#chart-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#chart {
+  height: 400px;
+  width: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 4px;
+}
+
+footer button:hover {
+  background-color: #4cae4c;
+}
+
+.btn-custom {
+  background-color: white !important; /* White background */
+  border: 2px solid #1e3c72 !important; /* Dark blue border outline */
+  color: #1e3c72 !important; /* Dark blue text */
+  font-weight: bold; /* Bold text */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.btn-custom:hover {
+  background-color: #1e3c72 !important; /* Dark blue background on hover */
+  color: white !important; /* White text on hover */
+  border-color: white !important; /* White border on hover */
+}
+
+.btn-time {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 2px solid #1e3c72 !important;
+  color: white !important;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.btn-time:hover {
+  background: #1e3c72 !important;
+  color: white !important;
+  border-color: white !important;
+}
+
+.light-theme .btn-time {
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: #333 !important;
+  border-color: #1e3c72 !important;
+}
+
+.light-theme .btn-time:hover {
+  background: #1e3c72 !important;
+  color: white !important;
+  border-color: white !important;
+}
+
+
+
