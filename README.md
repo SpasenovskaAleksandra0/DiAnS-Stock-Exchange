@@ -2,6 +2,8 @@
 
 A Flask-based web application for stock market analysis using Python, PostgreSQL, and Plotly.
 
+http://stockanalyzer.duckdns.org:5000
+
 ## 🚀 Features
 - Real-time stock data fetching (yfinance)
 - Interactive visualizations (Plotly)
@@ -32,8 +34,6 @@ docker-compose up --build
 
 ## Access
 http://localhost:5000
-or
-http://127.0.0.1:5000
 ```
 
 # 🌟 Team
