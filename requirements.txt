@@ -1,0 +1,6 @@
+os
+psycopg2
+pandas
+yfinance
+requests
+beautifulsoup4
